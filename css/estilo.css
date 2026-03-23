@@ -1,0 +1,7 @@
+/* Estilo para la imagen miniatura en la página principal */
+.miniatura {
+    width: 100%;
+    height: auto;
+
+    cursor: pointer;
+}

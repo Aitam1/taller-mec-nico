@@ -4,7 +4,11 @@
     /* Negro para cabecera y pie de página */
     --color-secondary: #1a1a1a;
     /* Gris oscuro para fondos secundarios */
-    --color-accent: #039BE5;
+
+
+    --color-accent: #187410;  /* Cambiando el color a verde */
+
+
     /* Azul Claro (Color principal) */
     --color-accent-hover: #0277BD;
     /* Azul más oscuro para hover */
@@ -98,7 +102,10 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--color-accent);
+
+    /*Dejando el color del logo con color azul*/
+    color: blue;
+    
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -715,3 +722,36 @@ form:valid button[type="submit"] {
     color: #666;
     font-size: 0.8rem;
 }
+
+
+
+
+
+
+
+
+
+/* ■■ FAVORITO: borde dorado y badge ■■ */
+.service-card.favorito {
+border: 3px solid gold;
+position: relative;
+}
+.badge-favorito {
+display: inline-block;
+background-color: gold;
+color: #333;
+font-weight: bold;
+font-size: 0.8rem;
+padding: 3px 10px;
+border-radius: 20px;
+margin-bottom: 6px;
+display: block;
+}
+
+
+
+
+
+
+
+
